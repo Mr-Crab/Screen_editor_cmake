@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<properties version="1.0">
+	<property name="%ENTITYNAME%" parent="Entity">
+		<parameter name="class" hidden="1">%ENTITYNAME%</parameter>
+	</property>
+</properties>
