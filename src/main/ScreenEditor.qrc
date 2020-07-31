@@ -1,18 +1,16 @@
 <RCC>
-    <qresource prefix="/toobar">
+    <qresource prefix="/">
         <file>Resources/button.png</file>
-        <file>Resources/export.png</file>
-        <file>Resources/picture.png</file>
         <file>Resources/clear.png</file>
+        <file>Resources/export.png</file>
         <file>Resources/import.png</file>
         <file>Resources/page.png</file>
+        <file>Resources/picture.png</file>
         <file>Resources/save.png</file>
-        <file>Resources/tooltip.png</file>
-    </qresource>
-    <qresource prefix="/source">
         <file>Resources/template.entity</file>
+        <file>Resources/template.h</file>
         <file>Resources/template.node</file>
         <file>Resources/template.prop</file>
-        <file>Resources/template.h</file>
+        <file>Resources/tooltip.png</file>
     </qresource>
 </RCC>

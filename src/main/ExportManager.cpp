@@ -161,7 +161,7 @@ bool ExportManager::createSourceByType(const QString& fileName, const QString& i
 	default:
 		break;
 	}
-	QString _typePath = ":/source/Resources/template" + _suffix;
+	QString _typePath = ":/Resources/template" + _suffix;
 	QString _saveEntityPath = AppManager::getInstance()->m_outPutPath + "/" + fileName + _suffix;
 	QFile _file(_typePath);
 

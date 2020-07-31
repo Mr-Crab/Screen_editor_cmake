@@ -100,7 +100,7 @@ void ScreenEditor::initToolBar()
 	m_btnBtn = new QToolButton();
 	m_btnBtn->setText(tr("按钮"));
 	m_btnBtn->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
-	m_btnBtn->setIcon(QIcon(":/toobar/Resources/button.png"));
+	m_btnBtn->setIcon(QIcon(":/Resources/button.png"));
 	m_btnBtn->setCheckable(1);
 	m_btnBtn->setChecked(1);
 	ui.toolBar->addWidget(m_btnBtn);
@@ -108,45 +108,45 @@ void ScreenEditor::initToolBar()
 	m_tooltipBtn = new QToolButton();
 	m_tooltipBtn->setText(tr("提示"));
 	m_tooltipBtn->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
-	m_tooltipBtn->setIcon(QIcon(":/toobar/Resources/tooltip.png"));
+	m_tooltipBtn->setIcon(QIcon(":/Resources/tooltip.png"));
 	m_tooltipBtn->setCheckable(1);
 	ui.toolBar->addWidget(m_tooltipBtn);
 
 	m_pageBtn = new QToolButton();
 	m_pageBtn->setText(tr("页"));
 	m_pageBtn->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
-	m_pageBtn->setIcon(QIcon(":/toobar/Resources/page.png"));
+	m_pageBtn->setIcon(QIcon(":/Resources/page.png"));
 	ui.toolBar->addWidget(m_pageBtn);
 
 	m_clearBtn = new QToolButton();
 	m_clearBtn->setText(tr("清空"));
 	m_clearBtn->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
-	m_clearBtn->setIcon(QIcon(":/toobar/Resources/clear.png"));
+	m_clearBtn->setIcon(QIcon(":/Resources/clear.png"));
 	ui.toolBar->addWidget(m_clearBtn);
 
 	m_deleteBtn = new QToolButton();
 	m_deleteBtn->setText(tr("清除资源"));
 	m_deleteBtn->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
-	m_deleteBtn->setIcon(QIcon(":/toobar/Resources/clear.png"));
+	m_deleteBtn->setIcon(QIcon(":/Resources/clear.png"));
 	ui.toolBar->addWidget(m_deleteBtn);
 
 	ui.toolBar->addSeparator();
 	m_importBtn = new QToolButton();
 	m_importBtn->setText(tr("导入"));
 	m_importBtn->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
-	m_importBtn->setIcon(QIcon(":/toobar/Resources/import.png"));
+	m_importBtn->setIcon(QIcon(":/Resources/import.png"));
 	ui.toolBar->addWidget(m_importBtn);
 
 	m_saveBtn = new QToolButton();
 	m_saveBtn->setText(tr("保存"));
 	m_saveBtn->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
-	m_saveBtn->setIcon(QIcon(":/toobar/Resources/save.png"));
+	m_saveBtn->setIcon(QIcon(":/Resources/save.png"));
 	ui.toolBar->addWidget(m_saveBtn);
 
 	m_exportBtn = new QToolButton();
 	m_exportBtn->setText(tr("导出"));
 	m_exportBtn->setToolButtonStyle(Qt::ToolButtonTextBesideIcon);
-	m_exportBtn->setIcon(QIcon(":/toobar/Resources/export.png"));
+	m_exportBtn->setIcon(QIcon(":/Resources/export.png"));
 	ui.toolBar->addWidget(m_exportBtn);
 
 	m_statuInfo = new QLabel();
