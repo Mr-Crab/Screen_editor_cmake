@@ -36,5 +36,4 @@ target_link_directories(${PROJECT_NAME} PUBLIC
 #添加Qt5依赖项
 target_link_libraries(${PROJECT_NAME} 
 	Qt5::Widgets Qt5::Core Qt5::Gui Qt5::Xml
-	zip_x64
 )

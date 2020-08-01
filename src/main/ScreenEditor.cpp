@@ -9,7 +9,6 @@
 #include <QFileDialog>
 #include <QScrollBar>
 #include "ExportInfoWidget.h"
-#include "ZipArchive.h"
 #include <QTime>
 #include <QDateTime>
 #include "PageItem.h"
@@ -217,15 +216,6 @@ void ScreenEditor::onCreateSourceFile()
 		QMessageBox::information(this, tr("提示"), tr("创建资源文件出错！"));
 		return;
 	}
-
-	bool _bZip = ZipArchive::CreateFromFolder(AppManager::getInstance()->m_outPutPath, m_exportInfoWidget->getEntityName());
-	if (!_bZip)
-	{
-		QMessageBox::information(this, tr("提示"), tr("压缩文件失败！"));
-		return;
-	}
-
-	QMessageBox::information(this, tr("提示"), tr("导出压缩文件成功！"));
 }
 
 void ScreenEditor::onClear()
@@ -243,7 +233,6 @@ void ScreenEditor::onDelete()
 	if (ui.listPage->getNumPageItems() == 0)
 		return;
 
-	ZipArchive::ClearUnUsedFile(AppManager::getInstance()->m_outPutPath);
 	AppManager::getInstance()->m_buttonController->clearContent();
 	ui.listPage->clearContetn();
 	ui.page->clearContent();

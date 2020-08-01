@@ -6,6 +6,7 @@
 #include <QPainter>
 #include <QRect>
 #include <QMessageBox>
+#include <QStyleOption>
 #include "ButtonInfoManager.h"
 #include "ButtonPropertyDialog.h"
 #include "config.h"
